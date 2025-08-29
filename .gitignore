@@ -1,7 +1,6 @@
 .DS_Store
 .atom/
 .idea/
-.vscode/*
 .melos_tool/*
 !.vscode/tasks.json
 !.vscode/settings.json
@@ -68,7 +67,6 @@ website/build
 .cache-loader
 
 # Misc
-.env.local
 .env.development.local
 .env.test.local
 .env.production.local
@@ -83,3 +81,4 @@ database-debug.log
 ui-debug.log
 **/.build/**/*
 .github/workflows/spam-removal/package-lock.json
+config.bat
